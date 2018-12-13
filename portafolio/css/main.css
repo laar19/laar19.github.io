@@ -95,12 +95,12 @@ nav li:hover a {
     text-align: center;
 }
 
-table {
+.tabla {
     width: 90%;
     margin: 0 auto;
 }
 
-table td {
+.tabla td {
     width: 33.3%;
     float: left;
 }
@@ -113,6 +113,10 @@ table td {
     font-size: 80px;
 }
 
+.tabla-responsive {
+    display: none;
+}
+
 /* Contacto */
 
 .contacto {
@@ -121,4 +125,48 @@ table td {
     text-align: center;
     background-color: #353535;
     color: white;
+}
+
+/* Responsive */
+
+/* Teléfonos y tablas */
+@media only screen and (max-width: 768px) {
+    nav a {
+        font-size: 11px;
+    }
+    
+    .biografia {
+        padding: 20px 20px;
+    }
+    
+    .biografia h1 {
+        font-size: 30px;
+    }
+    
+    .conocimientos {
+        padding: 20px 20px;
+    }
+    
+    .conocimientos h1 {
+        font-size: 30px;
+    }
+    
+    .tabla {
+        display: none;
+    }
+    
+    .tabla-responsive {
+        display: inline;
+    }
+    
+    .tabla-responsive td {
+        border: 1px solid;
+        border-radius: 10px;
+    }
+    
+    .lenguajes,
+    .desarrollo,
+    .otros {
+        font-size: 30px !important;
+    }
 }
