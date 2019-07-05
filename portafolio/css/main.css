@@ -82,7 +82,8 @@ nav li:hover a {
 
 /* Biografia */
 
-.biografia {
+.biografia,
+.articulos {
     padding: 70px 30px;
     text-align: center;
 }
@@ -135,11 +136,13 @@ nav li:hover a {
         font-size: 11px;
     }
     
-    .biografia {
+    .biografia,
+    .articulos {
         padding: 20px 20px;
     }
     
-    .biografia h1 {
+    .biografia h1,
+    .articulos h1 {
         font-size: 30px;
     }
     
