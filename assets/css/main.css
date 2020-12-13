@@ -27,3 +27,25 @@
 .dl {
     background-color: blue;
 }
+
+/* Dark theme palette */
+.darkest-block {
+    background-color: #222831!important;
+}
+
+.dark-block {
+    background-color: #393e46!important;
+}
+
+.light-block {
+    background-color: #eeeeee!important;
+}
+
+.title-color {
+    color: #d65a31!important;
+}
+
+.text-color {
+    color: #eeeeee!important;
+}
+/*-------------*/
