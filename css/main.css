@@ -1,175 +1,29 @@
-/* Estilos globales */
-
-* {
-    box-sizing: border-box;
+.bd-placeholder-img {
+    font-size          : 1.125rem;
+    text-anchor        : middle;
+    -webkit-user-select: none;
+    -moz-user-select   : none;
+    user-select        : none;
 }
 
-html, body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: #f2f2f2;
+@media(min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
 }
 
-main {
-    height: 100%;
-    width: 100%;
-}
-
-/* Menú principal */
-
-nav {
-    box-shadow: 0 2px 10px black;
-    position: fixed;
-    text-align: center;
-    width: 100%;
-}
-
-nav a {
-    color: #2e2e2e;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-nav > ul {
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-}
-
-nav > ul > li {
-    display: inline-block;
-    padding: 18px;
-}
-
-nav > ul > li:hover {
-    background-color: black;
-    opacity: 0.5;
-}
-
-nav li:hover a {
-    color: white;
-}
-
-/* Introduccion */
-
-.introduccion {
-    background-repeat: no-repeat;
-}
-
-.introduccion {
-    padding: 70px 30px;
-    text-align: center;
-    background-color: green;
-    background-image: url(../img/fondo-min.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}
-
-#introduccion > img {
-    border-radius: 50%; /* Borde redondeado */
-    height: 200px;
-    width: 200px;
-}
-
-.introduccion i {
-    color: white;
-}
-
-/* Biografia */
-
-.biografia,
-.articulos {
-    padding: 70px 30px;
-    text-align: center;
-}
-
-/* Conocimientos */
-
-.conocimientos {
-    background-color: white;
-    padding: 70px 30px;
-    text-align: center;
-}
-
-.tabla {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.tabla td {
-    width: 33.3%;
-    float: left;
-}
-
-.lenguajes {
+.icon-large {
     font-size: 60px;
 }
 
-.otros {
-    font-size: 80px;
+.ml, .dl {
+    font-size: 40px;
 }
 
-.tabla-responsive {
-    display: none;
+.ml {
+    background-color: yellow;
 }
 
-/* Contacto */
-
-.contacto {
-    height: 450px;
-    padding: 30px 10px;
-    text-align: center;
-    background-color: #353535;
-    color: white;
-}
-
-/* Responsive */
-
-/* Teléfonos y tablas */
-@media only screen and (max-width: 768px) {
-    nav a {
-        font-size: 11px;
-    }
-    
-    .biografia,
-    .articulos {
-        padding: 20px 20px;
-    }
-    
-    .biografia h1,
-    .articulos h1 {
-        font-size: 30px;
-    }
-    
-    .conocimientos {
-        padding: 20px 20px;
-    }
-    
-    .conocimientos h1 {
-        font-size: 30px;
-    }
-    
-    .tabla {
-        display: none;
-    }
-    
-    .tabla-responsive {
-        display: inline;
-    }
-    
-    .tabla-responsive td {
-        border: 1px solid;
-        border-radius: 10px;
-    }
-    
-    .lenguajes,
-    .desarrollo,
-    .otros {
-        font-size: 30px !important;
-    }
+.dl {
+    background-color: blue;
 }
