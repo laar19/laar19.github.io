@@ -1,3 +1,11 @@
+/* colors */
+:root {
+    --darkest-grey: #222831;
+    --grey        : #393e46;
+    --orange      : #d65a31;
+    --light       : #eeeeee;
+}
+
 .bd-placeholder-img {
     font-size          : 1.125rem;
     text-anchor        : middle;
@@ -12,14 +20,6 @@
     }
 }
 
-.icon-large {
-    font-size: 60px;
-}
-
-.ml, .dl {
-    font-size: 40px;
-}
-
 .ml {
     background-color: yellow;
 }
@@ -29,23 +29,23 @@
 }
 
 /* Dark theme palette */
-.darkest-block {
-    background-color: #222831!important;
+.darkest-grey-block {
+    background-color: var(--darkest-grey);
 }
 
-.dark-block {
-    background-color: #393e46!important;
+.grey-block {
+    background-color: var(--grey);
 }
 
 .light-block {
-    background-color: #eeeeee!important;
+    background-color: var(--light);
 }
 
-.title-color {
-    color: #d65a31!important;
+.orange-text {
+    color: var(--orange);
 }
 
-.text-color {
-    color: #eeeeee!important;
+.light-text {
+    color: var(--light);
 }
 /*-------------*/

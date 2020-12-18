@@ -1,0 +1,37 @@
+@media(max-width: 576px) {
+    .icon-large {
+        font-size: 50px;
+    }
+
+    .ml, .dl {
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 576px) {
+    .icon-large {
+        font-size: 40px;
+    }
+    
+    .ml, .dl {
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 768px) {
+    .icon-large {
+        font-size: 60px;
+    }
+    
+    .ml, .dl {
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 992px) {
+    
+}
+
+@media(min-width: 1200px) {
+    
+}
