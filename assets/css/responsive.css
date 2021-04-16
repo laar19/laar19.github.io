@@ -3,7 +3,7 @@
         font-size: 50px;
     }
 
-    .ml, .dl {
+    .ml, .dl, .app {
         font-size: 30px;
     }
 }
@@ -13,7 +13,7 @@
         font-size: 40px;
     }
     
-    .ml, .dl {
+    .ml, .dl, .app {
         font-size: 30px;
     }
 }
@@ -23,7 +23,7 @@
         font-size: 60px;
     }
     
-    .ml, .dl {
+    .ml, .dl, .app {
         font-size: 40px;
     }
 }

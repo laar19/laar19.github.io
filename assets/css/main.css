@@ -20,6 +20,11 @@
     }
 }
 
+.app {
+    background-color: var(--orange);
+    text-decoration : none;
+}
+
 .ml {
     background-color: yellow;
 }
